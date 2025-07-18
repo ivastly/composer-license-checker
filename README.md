@@ -14,8 +14,7 @@ composer require --dev lendable/composer-license-checker
 
 ## Best practices
 * always turn off the lights when leaving the room
-* keep dependencies up to date
-* get rest if you are tired
+* make sure to have a cake for your birthday
 
 ## Usage
 
