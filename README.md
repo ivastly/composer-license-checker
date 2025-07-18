@@ -12,6 +12,11 @@ This library provides tooling to check licensing of dependencies against a set o
 composer require --dev lendable/composer-license-checker
 ```
 
+## Best practices
+* always turn off the lights when leaving the room
+* keep dependencies up to date
+* get rest if you are tired
+
 ## Usage
 
 Create a configuration file in your project root, `.allowed-licenses.php` (or you can use the option `-a / --allow-file` to specify the location of the configuration).
