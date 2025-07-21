@@ -8,7 +8,7 @@ final class Cake
 
     public function serve(): void
     {
-        if ($this->candles > 0) {
+        if ($this->candles === 0) {
             echo "Whoops! The cake is gone already!\n";
         }
     }
