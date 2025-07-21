@@ -20,7 +20,9 @@ final class Cake
 
     public function removeCandle(): void
     {
-        $this->candles--;
+        if ($this->candles > 0) {
+            $this->candles--;
+        }
     }
 
     public function __toString(): string
