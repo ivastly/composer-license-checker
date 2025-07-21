@@ -22,7 +22,8 @@ final class Cake
 
     public function __toString(): string
     {
-        return "The cake with {$this->candles} candles on the top.\n";
+        $candleWord = $this->candles === 1 ? 'candle' : 'candles';
+        return "The cake with {$this->candles} {$candleWord} on the top.\n";
     }
 }
 
