@@ -14,5 +14,5 @@ final class Cake
     }
 }
 
-$cake = new Cake(10);
+$cake = new Cake(candles: 10);
 $cake->serve();
