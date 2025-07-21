@@ -13,7 +13,6 @@ composer require --dev lendable/composer-license-checker
 ```
 
 ## Best practices
-* always turn off the lights when leaving the room
 * make sure to have a cake for your birthday
 
 ## Usage
